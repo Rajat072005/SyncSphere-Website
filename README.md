@@ -1,2 +1,2 @@
-Deployed Link : sync-sphere-website.vercel.app
+Deployed Link : https://sync-sphere-website.vercel.app/step1
 
