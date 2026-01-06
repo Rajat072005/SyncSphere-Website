@@ -1,0 +1,59 @@
+:root {
+    --theme-toggle-bg: #181f2a;
+    --theme-toggle-bg-hover: #38bdf8;
+    --theme-toggle-icon: #38bdf8;
+    --theme-toggle-icon-hover: #fff;
+    --theme-toggle-shadow: 0 2px 16px 0 #38bdf844;
+}
+
+.theme-switcher {
+    background: rgba(56,189,248,0.08);
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 0 1rem 0 0;
+    padding: 0.18rem 1.1rem 0.18rem 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    box-shadow: 0 2px 16px 0 #38bdf822;
+    
+}
+
+
+#theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--theme-toggle-bg);
+    color: var(--theme-toggle-icon);
+    font-size: 1.15rem; 
+    box-shadow: 0 2px 8px #2563eb22;
+    margin-right: 0.5rem; 
+    
+}
+
+.theme-switcher span {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: var(--theme-toggle-icon);
+    letter-spacing: 1px;
+    line-height: 2rem; 
+    transition: color 0.3s;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.theme-switcher:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #38bdf8aa;
+}
